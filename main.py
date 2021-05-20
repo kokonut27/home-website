@@ -25,13 +25,10 @@ def index():
     replitlangs = langs,
 
     gitname = "JBYT27",
-    gitfollow = "11 followers",
+    gitfollow = "11",
     gitbio = "Front-end Dev. @ReplAPI-it and @PyScript-Language Developer",
     gitlangs = "Python3, Html, JavaScript",
     gitstatus = "✨  Developing!"
-    """
-    Unfornately for us, there is no github module that gets info, *yet* xD
-    """
   )
 
 @app.route('/projects')
@@ -50,13 +47,10 @@ def about():
     replitlangs = langs,
 
     gitname = "JBYT27",
-    gitfollow = "11 followers",
+    gitfollow = "11",
     gitbio = "Front-end Dev. @ReplAPI-it and @PyScript-Language Developer",
     gitlangs = "Python3, Html, JavaScript",
     gitstatus = "✨  Developing!"
-    """
-    Unfornately for us, there is no github module that gets info, *yet* xD
-    """
   )
 
 @app.route('/contact', methods=["GET","POST"])
