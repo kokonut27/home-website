@@ -23,40 +23,6 @@ def index():
     replitcycles = cycles,
     replitbio = bio,
     replitlangs = langs,
-
-    gitname = "JBYT27",
-    gitfollow = "11",
-    gitbio = "Front-end Dev. @ReplAPI-it and @PyScript-Language Developer",
-    gitlangs = "Python3, Html, JavaScript",
-    gitstatus = "✨  Developing!"
-  )
-
-@app.route('/projects')
-def projects():
-  return render_template(
-    "projects.html",
-  )
-
-@app.route('/about')
-def about():
-  return render_template(
-    "about.html",
-    replitname = "JBloves27",
-    replitcycles = cycles,
-    replitbio = bio,
-    replitlangs = langs,
-
-    gitname = "JBYT27",
-    gitfollow = "11",
-    gitbio = "Front-end Dev. @ReplAPI-it and @PyScript-Language Developer",
-    gitlangs = "Python3, Html, JavaScript",
-    gitstatus = "✨  Developing!"
-  )
-
-@app.route('/contact', methods=["GET","POST"])
-def contact():
-  return render_template(
-    "contact.html",
   )
 
 @app.errorhandler(404)

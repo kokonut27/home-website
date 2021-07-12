@@ -21,10 +21,9 @@
 
         <!-- Navbar Links -->
         <ul id="menu">
-          <li><a href="https://JBYT27.jbloves27.repl.co">Home</a></li><!--
-      --><li><a href="{{ url_for('projects') }}">Projects</a></li><!--
-      --><li><a href="{{ url_for('about') }}">About</a></li><!--
-      --><li><a href="{{ url_for('contact') }}">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -39,23 +38,16 @@
 
     <div class="overlay-menu">
       <ul id="menu">
-          <li><a href="https://JBYT27.jbloves27.repl.co">Home</a></li>
-          <li><a href="{{ url_for('projects') }}">Projects</a></li>
-          <li><a href="{{ url_for('about') }}">About</a></li>
-          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <br><br><br><br><br><br><br><br>
-    <h2 style="text-align: center;color: rgb(13, 26, 38)"> Hiya there! Nice to meet you! My name's JBYT27! </h2>
-    <p style="text-align: center;color: rgb(13, 26, 38)"> To learn more about me, navigate through <a href="{{ url_for('about') }}" style="color: rgb(28, 121, 184)">here!</a></p>
-    <p style="text-align: center;color: rgb(13, 26, 38)"> To contact me, navigate through <a href="{{ url_for('contact') }}" style="color: rgb(28, 121, 184)">here!</a></p>
-    <p style="text-align: center;color: rgb(13, 26, 38)"> To learn more about my projects, navigate through <a href="{{ url_for('projects') }}" style="color: rgb(28, 121, 184)">here!</a></p>
-    <h3 style="text-align: center;color: rgb(13,26,38)">
-      Hope to see you soon!
-    </h3>
-    <br><br>
-    <h6 align="center"> Note that I got the navbar from codepenio </h6>
-    <br><br>
+    <h2 id="home" style="text-align: center;color: rgb(13, 26, 38)"> JBYT27 </h2>
+    <br>
+    <p id="about" style="text-align: center;color: rgb(13, 26, 38)"> {{ replitbio }} </p>
+    <p id="contact" style="text-align: center;color: rgb(13, 26, 38)">Discord: Aspirin#5634<br><a href="https://github.com/JBYT27">GitHub</a><br><a href="https://replit.com/@JBloves27">Replit</a></p>
   </body>
 </html>
